@@ -1,0 +1,35 @@
+{
+  "name": "lex-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Kuk",
+  "license": "MIT",
+  "dependencies": {
+    "aguid": "^2.0.0",
+    "boom": "^5.2.0",
+    "express": "^4.15.4",
+    "fluture": "^7.1.1",
+    "greenlock-express": "^2.0.11",
+    "http-proxy": "^1.16.2",
+    "le-challenge-fs": "^2.0.8",
+    "le-challenge-sni": "^2.0.1",
+    "le-store-redis": "^0.2.3",
+    "monad-t": "^0.1.0",
+    "monet": "^0.8.10",
+    "ramda": "^0.24.1",
+    "ramda-adjunct": "^1.14.0",
+    "redis": "^2.8.0",
+    "vhost": "^3.0.2"
+  },
+  "devDependencies": {
+    "eslint": "=4.3.0",
+    "eslint-config-airbnb": "=15.1.0",
+    "eslint-plugin-import": "=2.7.0",
+    "eslint-plugin-jsx-a11y": "=5.1.1",
+    "eslint-plugin-react": "=7.1.0"
+  }
+}
